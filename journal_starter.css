@@ -1,2 +1,18 @@
-/* Henry's Journal - CSS Positioning Project */
+/* Henry's/* Responsive Design */
+@media (max-width: 768px) {
+    #main-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    #sidebar,
+    #content-area {
+        float: none;
+        width: 100%;
+    }
+
+    #sidebar {
+        margin-bottom: 20px;
+    }
+} Journal - CSS Positioning Project */
 /* Additional styling will be developed using feature branches. */
